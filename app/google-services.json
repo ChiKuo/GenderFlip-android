@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "517543157798",
+    "firebase_url": "https://genderflip-7a4a5.firebaseio.com",
+    "project_id": "genderflip-7a4a5",
+    "storage_bucket": "genderflip-7a4a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517543157798:android:215ca78726d50e36",
+        "android_client_info": {
+          "package_name": "tw.chikuo.genderflip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517543157798-tvi4ej4ekid1pcrj7fcj5k9mbffdv748.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5j4LcBqDZOf8-U2sPs4L2QuLivFqd_4E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

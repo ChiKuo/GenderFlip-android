@@ -6,6 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -21,12 +22,19 @@ import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import tw.chikuo.genderflip.Node.CloudDataCenter;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private MainMissionAdapter mainMissionAdapter;
     private RecyclerView rv;
+    Timer mServerTimer = null;
+    TimerTask mServerTimerTask = null;
+    String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +42,8 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        iniTimer();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -43,6 +53,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -61,13 +72,63 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+    void iniTimer()
+    {
+        mServerTimer = new Timer();
+        mServerTimerTask = new TimerTask() {
+            @Override
+            public void run() {
+                //Mission mMission2 = new Mission("missionName11");
+                //Log.d("CloudDataCenter","count="+mMission2.maleCount.getValue());
+                if(CloudDataCenter.getInstance(MainActivity.this).getMissionList().
+                        getMissionList(MainActivity.this).size()>0)
+                {
+                    //missionList.clear();
+                    missionList.clear();
+
+                    for (int i=0;i<CloudDataCenter.getInstance(MainActivity.this).getMissionList().
+                            getMissionList(MainActivity.this).size();i++)
+                    {
+                       tw.chikuo.genderflip.Node.Node.Mission m = CloudDataCenter.getInstance(MainActivity.this).getMissionList().
+                                getMissionList(MainActivity.this).get(i);
+
+                        Mission m_source = new Mission();
+
+                        if(m.femaleCount!=null && !m.femaleCount.getValue().equals("")) {
+                            m_source.setFemaleCount(Integer.valueOf(m.femaleCount.getValue()));
+                        }
+                        if(m.maleCount!=null && !m.maleCount.getValue().equals("")) {
+                            m_source.setMaleCount(Integer.valueOf(m.maleCount.getValue()));
+                        }
+                        if(m.missionName!=null && !m.missionName.getValue().equals("")) {
+                            m_source.setMissionName(m.missionName.getValue());
+                        }
+
+                        Log.d(TAG,"femaleCount="+ m.femaleCount.getValue());
+                        missionList.add(m_source);
+                    }
+
+                }
+            }
+        };
+        mServerTimer.schedule(mServerTimerTask, 0, 1000);
+    }
+
+    static List<Mission> missionList = new ArrayList<>();
     private void loadData() {
         // TODO
-
-        List<Mission> missionList = new ArrayList<>();
         for (int i = 1; i < 11 ;i++){
-            Mission mission = new Mission("任務" + i, (int)(Math.random() * 100), (int)(Math.random() * 100));
-            missionList.add(mission);
+
+            String ID = "任務" + i;
+            tw.chikuo.genderflip.Node.Node.Mission mMission = new tw.chikuo.genderflip.Node.Node.Mission(null, ID);
+            CloudDataCenter.getInstance(MainActivity.this).getMissionList().List.Append(ID, "99");
+
+            mMission.missionName.setValue("Name"+i);
+            mMission.femaleCount.setValue(String.valueOf((int)(Math.random() * 100)));
+            mMission.maleCount.setValue(String.valueOf((int)(Math.random() * 100)));
+
+//            Mission mission = new Mission("任務" + i, (int)(Math.random() * 100), (int)(Math.random() * 100));
+//            missionList.add(mission);
         }
         mainMissionAdapter.setMissionList(missionList);
     }

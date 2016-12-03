@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/Chi/java_projects/GenderFlip-android/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
-        "source": "/Users/Chi/java_projects/GenderFlip-android/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/anim-v21/design_appbar_state_list_animator.xml"
+        "merged": "C:\\Users\\bjorgaas\\Desktop\\GenderFilp\\GenderFlip-android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\bjorgaas\\Desktop\\GenderFilp\\GenderFlip-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/Chi/java_projects/GenderFlip-android/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/Chi/java_projects/GenderFlip-android/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\bjorgaas\\Desktop\\GenderFilp\\GenderFlip-android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\bjorgaas\\Desktop\\GenderFilp\\GenderFlip-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/Chi/java_projects/GenderFlip-android/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/Chi/java_projects/GenderFlip-android/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\bjorgaas\\Desktop\\GenderFilp\\GenderFlip-android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\bjorgaas\\Desktop\\GenderFilp\\GenderFlip-android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     }
 ]
