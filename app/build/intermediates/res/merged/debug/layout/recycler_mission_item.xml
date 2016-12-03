@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/empty_textView"
+            android:layout_marginRight="0dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/male_count_textView"
+            android:text="12%"
+            android:textSize="10sp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:text="任務一"
+            android:id="@+id/mission_name_textView"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="88%"
+            android:layout_marginLeft="5dp"
+            android:textSize="10sp"
+            android:id="@+id/female_count_textView"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+</RelativeLayout>
