@@ -1,6 +1,7 @@
 package tw.chikuo.genderflip;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
@@ -114,7 +115,7 @@ public class MainMissionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     }
 
-    public class ItemViewHolder extends RecyclerView.ViewHolder {
+    public class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         private TextView nameTextView;
         private TextView maleCountTextView;
@@ -128,6 +129,17 @@ public class MainMissionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             maleCountTextView = (TextView) itemView.findViewById(R.id.male_count_textView);
             femaleCountTextView = (TextView) itemView.findViewById(R.id.female_count_textView);
             emptyTextView = (TextView) itemView.findViewById(R.id.empty_textView);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            int position = getAdapterPosition();
+            Mission mission = missionList.get(position);
+
+            Intent intent = new Intent(context, MissionActivity.class);
+            intent.putExtra("mission", mission);
+            context.startActivity(intent);
         }
     }
 

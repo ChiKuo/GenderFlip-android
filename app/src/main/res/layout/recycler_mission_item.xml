@@ -35,8 +35,8 @@
             android:layout_height="30dp"
             android:text="任務一"
             android:id="@+id/mission_name_textView"
-            android:background="@color/colorPrimary"
-            android:textColor="@color/white"
+            android:background="@drawable/background_radius_write"
+            android:textColor="@color/black"
             android:gravity="center_vertical|center_horizontal" />
 
         <TextView

@@ -1,9 +1,11 @@
 package tw.chikuo.genderflip;
 
+import java.io.Serializable;
+
 /**
  * Created by Chi on 2016/12/3.
  */
-public class Mission {
+public class Mission implements Serializable{
 
     private String missionName;
     private int maleCount;

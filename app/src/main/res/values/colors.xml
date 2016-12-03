@@ -14,4 +14,8 @@
     <color name="gray_10">#1A808080</color>
     <color name="gray_5">#0D808080</color>
     <color name="light_gray">#cccccc</color>
+
+    <color name="male_background">#bdd2ed</color>
+    <color name="female_background">#ffd36a</color>
+    #bdd2ed
 </resources>
