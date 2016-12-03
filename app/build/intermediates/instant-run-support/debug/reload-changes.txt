@@ -1,3 +1,2 @@
-CHANGED,C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\tw\chikuo\genderflip\MainActivity$override.class
-CHANGED,C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\tw\chikuo\genderflip\MainActivity$1$override.class
+CHANGED,C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\tw\chikuo\genderflip\MainMissionAdapter$override.class
 CHANGED,C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

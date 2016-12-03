@@ -104,8 +104,18 @@ public class MainActivity extends AppCompatActivity
                             m_source.setMissionName(m.missionName.getValue());
                         }
 
-                        Log.d(TAG,"femaleCount="+ m.femaleCount.getValue());
+                        Log.d(TAG,"getMissionName="+m_source.getMissionName());
+                        Log.d(TAG,"getFemaleCount="+m_source.getFemaleCount());
+                        Log.d(TAG,"getMaleCount="+m_source.getMaleCount());
                         missionList.add(m_source);
+
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                mainMissionAdapter.notifyDataSetChanged();
+                            }
+                        });
+
                     }
 
                 }

@@ -74,7 +74,7 @@ public class MainMissionAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                 }
 
                 int allCount = mission.getMaleCount() + mission.getFemaleCount();
-                int malePercentage = 100 * mission.getMaleCount() / allCount;
+                int malePercentage = allCount == 0 ? 0 : (100 * mission.getMaleCount() / allCount);
                 int femalePercentage = 100 - malePercentage;
 
                 holder.maleCountTextView.setText(malePercentage + "%");
