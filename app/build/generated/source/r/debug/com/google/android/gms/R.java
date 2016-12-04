@@ -23,10 +23,11 @@ public final class R {
 		public static final int crash_reporting_present = 0x7f0c0004;
 		public static final int none = 0x7f0c0013;
 		public static final int normal = 0x7f0c000f;
-		public static final int radio = 0x7f0c005a;
-		public static final int text = 0x7f0c0097;
-		public static final int text2 = 0x7f0c0095;
-		public static final int toolbar = 0x7f0c0072;
+		public static final int radio = 0x7f0c0066;
+		public static final int standard = 0x7f0c003f;
+		public static final int text = 0x7f0c00a4;
+		public static final int text2 = 0x7f0c00a2;
+		public static final int toolbar = 0x7f0c007e;
 		public static final int wrap_content = 0x7f0c0023;
 	}
 	public static final class integer {

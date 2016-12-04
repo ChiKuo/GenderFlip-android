@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="19"
-    density="xhdpi"
+    api-level="23"
+    density="xxhdpi"
     format="7"
-    timestamp="103531306645889"
+    timestamp="149588318072974"
     token="-1766606641899607620" >
 
     <task
         name="javac"
-        duration="215" />
+        duration="238" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="82" />
+        duration="52" />
     <task
         name="verifier"
-        duration="3" />
+        duration="2" />
 
     <artifact
-        location="C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
 
-    <build timestamp="103531306645889" >
+    <build timestamp="149092866203103" >
         <artifact
             location="C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="149588318072974" >
+        <artifact
+            location="C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

@@ -18,4 +18,88 @@
     <color name="male_background">#bdd2ed</color>
     <color name="female_background">#ffd36a</color>
     #bdd2ed
+
+
+    <drawable name="MasterBlueColor">#6cc6d5</drawable>
+
+    <drawable name="Home_Item">#ffffff</drawable>
+
+    <drawable name="MasterDarkColor">#434a54</drawable>
+
+    <!--<drawable name="MasterDarkColor">#6cc6d5</drawable>-->
+
+
+    <drawable name="TenDarkColor">#1a434a54</drawable>
+
+    <drawable name="FiftyDarkColor">#80434a54</drawable>
+
+    <drawable name="EightyDarkColor">#cc434a54</drawable>
+
+    <drawable name="NineDarkColor">#e6434a54</drawable>
+
+    <color name="FindOnWorkColor">#e6edca67</color>
+
+    <color name="MasterDarkColor">#434a54</color>
+
+    <color name="SubDarkColor">#99434a54</color>
+
+    <color name="sixWhiteColor">#99ffffff</color>
+
+    <color name="FiftyDarkColor">#80434a54</color>
+
+    <color name="NineDarkColor">#e6434a54</color>
+
+    <color name="tenDarkColol">#1a434a54</color>
+
+    <color name="SevenDarkColor">#b3434a54</color>
+
+    <color name="ThreeDarkColor">#4d434a54</color>
+
+    <color name="White">#ffffff</color>
+
+    <drawable name="SubDarkColor">#99434a54</drawable>
+
+    <drawable name="PressedColor">#696e76 </drawable>
+
+    <drawable name="halfTranslucent">#64000000</drawable>
+
+    <drawable name="deleteColor">#e07d56</drawable>
+
+    <drawable name="hoverColor">#dddddd</drawable>
+
+    <drawable name="FortyDarkColor">#66434a54</drawable>
+
+    <drawable name="Form_CheckColor">#80c69c</drawable>
+
+    <drawable name="Form_DoneColor">#edca67</drawable>
+
+    <drawable name="Form_TodoColor">#6cc5d5</drawable>
+
+    <drawable name="Form_DenyColor">#e07d56</drawable>
+
+    <drawable name="Form_onelineColor">#f2f2f2</drawable>
+
+    <color name="FortyDarkColor">#66434a54</color>
+
+    <color name="Form_CheckColor">#80c69c</color>
+
+    <color name="Form_DoneColor">#edca67</color>
+
+    <color name="Form_TodoColor">#6cc5d5</color>
+
+    <color name="Form_DenyColor">#e07d56</color>
+
+    <color name="Form_onelineColor">#f2f2f2</color>
+
+    <drawable name="DialogColor">#f2f2f2</drawable>
+
+    <drawable name="DialogColorOnpressed">#e6e6e6</drawable>
+
+    <drawable name="DialogLineColor">#cccccc</drawable>
+
+    <drawable name="DialogSolidColor">#999999</drawable>
+
+    <drawable name="chat_EditTextColor">#ebebeb</drawable>
+
+    <drawable name="SettingBackgroundColor">#ececec</drawable>
 </resources>

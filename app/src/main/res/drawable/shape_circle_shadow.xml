@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="ring" >
+
+    <!-- 圓形內部的填充顏色 -->
+    <solid android:color="@android:color/white"></solid>
+
+    <gradient
+        android:startColor="@android:color/darker_gray"
+        android:centerColor="@android:color/transparent"
+        android:endColor="@android:color/darker_gray"
+        android:angle="225"/>
+
+
+</shape>

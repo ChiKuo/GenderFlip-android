@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml
@@ -46,7 +46,7 @@ ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\
 	android:name
 		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:9:22-68
 application
-ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:11:5-28:19
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:11:5-39:19
 MERGED from [com.google.firebase:firebase-core:9.8.0] C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\9.8.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:19:5-21:19
@@ -968,24 +968,44 @@ MERGED from [com.android.support:support-compat:25.0.1] C:\Users\bjorgaas\Deskto
 		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:17:9-40
 	android:name
 		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:16:9-28
-activity#tw.chikuo.genderflip.MainActivity
-ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:18:9-27:20
+activity#tw.chikuo.genderflip.Splash
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:label
 		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:20:13-45
 	android:theme
 		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:19:13-35
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
 ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
 		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:24:27-74
+activity#tw.chikuo.genderflip.MainActivity
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:28:9-37:20
+	android:label
+		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:30:13-45
+	android:theme
+		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:29:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:32:13-36:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:35:27-73
+activity#tw.chikuo.genderflip.MissionActivity
+ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:38:9-100
+	android:label
+		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:38:51-88
+	android:name
+		ADDED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml:38:19-50
 uses-sdk
 INJECTED from C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-core:9.8.0] C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\9.8.0\AndroidManifest.xml:4:5-42

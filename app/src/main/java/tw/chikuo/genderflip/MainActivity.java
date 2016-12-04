@@ -80,6 +80,8 @@ public class MainActivity extends AppCompatActivity
             public void run() {
                 //Mission mMission2 = new Mission("missionName11");
                 //Log.d("CloudDataCenter","count="+mMission2.maleCount.getValue());
+                Log.d(TAG, "size ="+CloudDataCenter.getInstance(MainActivity.this).getMissionList().
+                        getMissionList(MainActivity.this).size());
                 if(CloudDataCenter.getInstance(MainActivity.this).getMissionList().
                         getMissionList(MainActivity.this).size()>0)
                 {
@@ -126,23 +128,52 @@ public class MainActivity extends AppCompatActivity
 
     static List<Mission> missionList = new ArrayList<>();
     private void loadData() {
+        //createData();
         // TODO
-        for (int i = 1; i < 11 ;i++){
-
-            String ID = "任務" + i;
-            tw.chikuo.genderflip.Node.Node.Mission mMission = new tw.chikuo.genderflip.Node.Node.Mission(null, ID);
-            CloudDataCenter.getInstance(MainActivity.this).getMissionList().List.Append(ID, "99");
-
-            mMission.missionName.setValue("任務"+i);
-            mMission.femaleCount.setValue(String.valueOf((int)(Math.random() * 100)));
-            mMission.maleCount.setValue(String.valueOf((int)(Math.random() * 100)));
-
-//            Mission mission = new Mission("任務" + i, (int)(Math.random() * 100), (int)(Math.random() * 100));
-//            missionList.add(mission);
-        }
+//        for (int i = 1; i < 11 ;i++){
+//
+//            String ID = "任務" + i;
+//            tw.chikuo.genderflip.Node.Node.Mission mMission = new tw.chikuo.genderflip.Node.Node.Mission(null, ID);
+//            CloudDataCenter.getInstance(MainActivity.this).getMissionList().List.Append(ID, "99");
+//
+//            mMission.missionName.setValue("任務"+i);
+//            mMission.femaleCount.setValue(String.valueOf((int)(Math.random() * 100)));
+//            mMission.maleCount.setValue(String.valueOf((int)(Math.random() * 100)));
+//
+////            Mission mission = new Mission("任務" + i, (int)(Math.random() * 100), (int)(Math.random() * 100));
+////            missionList.add(mission);
+//        }
         mainMissionAdapter.setMissionList(missionList);
     }
 
+    private void createData()
+    {
+        List<String> StrList = new ArrayList<>();
+        StrList.add("買衛生棉");
+        StrList.add("拿包包");
+        StrList.add("騎/開車載伴侶");
+        StrList.add("保護人");
+        StrList.add("借人肩膀");
+        StrList.add("大哭一場");
+        StrList.add("化妝");
+        StrList.add("買保險套");
+
+        for(String v : StrList)
+        {
+            String ID = v;
+            tw.chikuo.genderflip.Node.Node.Mission mMission = new tw.chikuo.genderflip.Node.Node.Mission(null, ID);
+            CloudDataCenter.getInstance(MainActivity.this).getMissionList().List.Append(ID, "99");
+            mMission.missionName.setValue(ID);
+            mMission.femaleCount.setValue(String.valueOf((int)(Math.random() * 100)));
+            mMission.maleCount.setValue(String.valueOf((int)(Math.random() * 100)));
+        }
+
+//
+//        mMission.missionName.setValue(ID);
+//        mMission.femaleCount.setValue(String.valueOf((int)(Math.random() * 100)));
+//        mMission.maleCount.setValue(String.valueOf((int)(Math.random() * 100)));
+
+    }
 
     @Override
     public void onBackPressed() {
