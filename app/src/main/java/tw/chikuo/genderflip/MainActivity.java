@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity
             tw.chikuo.genderflip.Node.Node.Mission mMission = new tw.chikuo.genderflip.Node.Node.Mission(null, ID);
             CloudDataCenter.getInstance(MainActivity.this).getMissionList().List.Append(ID, "99");
 
-            mMission.missionName.setValue("Name"+i);
+            mMission.missionName.setValue("任務"+i);
             mMission.femaleCount.setValue(String.valueOf((int)(Math.random() * 100)));
             mMission.maleCount.setValue(String.valueOf((int)(Math.random() * 100)));
 

@@ -4,22 +4,30 @@
     api-level="19"
     density="xhdpi"
     format="7"
-    timestamp="103224612877213"
+    timestamp="103531306645889"
     token="-1766606641899607620" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="215" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="82" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
-    <build timestamp="103224612877213" />
+    <artifact
+        location="C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="103531306645889" >
+        <artifact
+            location="C:\Users\bjorgaas\Desktop\GenderFilp\GenderFlip-android\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
 
 </instant-run>
