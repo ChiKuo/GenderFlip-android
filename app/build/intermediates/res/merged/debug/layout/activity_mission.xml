@@ -1,6 +1,164 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="20dp"
+                android:text="大哭一場"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/gray_75"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/gray_75"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="男性們總是被傳輸了男兒有淚不輕彈的想法，\n但是當情感無處宣洩變成事實時，掉眼淚就是義務！我們的任務就是——身邊有男性心碎時，\n輕拍他的肩頭，鼓勵他大哭一場吧！"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/black"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/black"
+                android:text="留下你的故事與經驗 / 立即行動"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/message_button"
+                android:background="@color/female_background"
+                android:layout_below="@+id/scrollView"
+                android:layout_centerHorizontal="true" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/gray_75"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/gray_75"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_rounded_gray_white"
+                android:layout_marginTop="30dp"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="看到這個任務很有感覺!"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/textView4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="看到這個任務很有感覺，我爸爸是個傳統的男性，印象從小到大從來沒看過他哭。直到我阿公的喪禮上，直到在我阿公的喪禮上，樂隊演奏時爸爸的表情十分無助、心痛，臉都揪在一塊了......我看到爸爸那樣，我就過去抱抱他，那次我聽到老爸哭了，雖然沒真的看到，但男性被壓抑的情緒，到底什麼時候才能夠真正被釋放呢？"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView5" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_rounded_gray_white"
+                android:layout_marginTop="20dp"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="看到這個任務很有感覺!"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/textView6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="看到這個任務很有感覺，我爸爸是個傳統的男性，印象從小到大從來沒看過他哭。直到我阿公的喪禮上，直到在我阿公的喪禮上，樂隊演奏時爸爸的表情十分無助、心痛，臉都揪在一塊了......我看到爸爸那樣，我就過去抱抱他，那次我聽到老爸哭了，雖然沒真的看到，但男性被壓抑的情緒，到底什麼時候才能夠真正被釋放呢？"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView7" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_rounded_gray_white"
+                android:layout_marginTop="20dp"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="看到這個任務很有感覺!"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/textView8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="看到這個任務很有感覺，我爸爸是個傳統的男性，印象從小到大從來沒看過他哭。直到我阿公的喪禮上，直到在我阿公的喪禮上，樂隊演奏時爸爸的表情十分無助、心痛，臉都揪在一塊了......我看到爸爸那樣，我就過去抱抱他，那次我聽到老爸哭了，雖然沒真的看到，但男性被壓抑的情緒，到底什麼時候才能夠真正被釋放呢？"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView9" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

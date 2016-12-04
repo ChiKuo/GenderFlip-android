@@ -43,8 +43,8 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -361,7 +361,7 @@
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
-    <integer name="google_play_services_version">10084000</integer>
+    <integer name="google_play_services_version">9877000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -395,7 +395,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">GenderFlip</string>
+    <string name="app_name">翻轉性別</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
@@ -407,7 +407,11 @@
     <string name="google_app_id" translatable="false">1:517543157798:android:215ca78726d50e36</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC5j4LcBqDZOf8-U2sPs4L2QuLivFqd_4E</string>
     <string name="google_storage_bucket" translatable="false">genderflip-7a4a5.appspot.com</string>
+<<<<<<< HEAD
     <string name="label_mission">任務</string>
+=======
+    <string name="label_mission">翻轉性別任務</string>
+>>>>>>> 366d59e1402da1af633a2b55d19cdfe4a3c3a215
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="search_menu_title">Search</string>

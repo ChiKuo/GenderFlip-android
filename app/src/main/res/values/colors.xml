@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
     <color name="colorAccent">#FF4081</color>
 
 
@@ -17,8 +17,6 @@
 
     <color name="male_background">#bdd2ed</color>
     <color name="female_background">#ffd36a</color>
-    #bdd2ed
-
 
     <drawable name="MasterBlueColor">#6cc6d5</drawable>
 

@@ -1,1 +1,5 @@
 .idea/workspace.xml
+app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+app/build/intermediates/res/merged/debug/layout/activity_mission.xml
+app/build/intermediates/res/merged/debug/values/values.xml
+app/build/outputs/logs/manifest-merger-debug-report.txt
